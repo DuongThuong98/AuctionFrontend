@@ -6,9 +6,10 @@
 body {
 	background: #fafafa;
 	color: #333e48;
-	font-family: 'Arimo', sans-serif;
+	/* font-family: 'Arimo', sans-serif; */
+	font-family: "Arial Narrow", Arial, sans-serif;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 20px;
 	text-align: left
 }
@@ -5601,7 +5602,7 @@ ul.products-list {
 	margin-right: 0;
 	padding: 0 5px 1px;
 	text-align: center;
-	width: 65px
+	width: 120px
 }
 .dec.qtybutton {
 	background-color: #e5e5e5;
