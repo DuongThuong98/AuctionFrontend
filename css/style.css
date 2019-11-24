@@ -6259,7 +6259,7 @@ p.note {
 	border-radius: 50px;
 	width: 115px;
 }
-.wishlist-item .all-cart {
+.wishlist-item .all-cart, .delete-all {
 	background: #333e48;
 	color: #fff;
 	display: inline-block;
@@ -6269,10 +6269,16 @@ p.note {
 	border-radius: 50px;
 	margin-top: 18px;
 }
-.wishlist-item table .td-add-to-cart > a:hover, .wishlist-item .all-cart:hover {
+.wishlist-item table .td-add-to-cart > a:hover, .wishlist-item .all-cart:hover{
 	background: #fed700;
 	color: #333e48;
 }
+
+.delete-all:hover {
+	background: #fe0100;
+	color: #ffffff;
+}
+
 .wishlist-area .social-sharing {
 	border-bottom: 1px solid #e5e5e5;
 	border-left: 1px solid #e5e5e5;
@@ -7255,7 +7261,7 @@ nav {
 .products-list .product-shop .actions ul li:last-child {
 	margin-bottom: 0px;
 }
-.wishlist-item .all-cart {
+.wishlist-item .all-cart, .delete-all {
 	margin-bottom: 15px;
 }
 .checkout-page .box-border .button {
@@ -7417,7 +7423,7 @@ nav {
 	margin: 12px auto 0px;
 	width: 100%;
 }
-.wishlist-item .all-cart {
+.wishlist-item .all-cart,.delete-all {
 	margin-bottom: 15px;
 }
 .checkout-page .box-border .button {

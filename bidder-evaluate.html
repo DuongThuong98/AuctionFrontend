@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic page needs -->
+    <meta charset="utf-8">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MyStore premium HTML5 &amp; CSS3 template</title>
+    <meta name="description"
+        content="best template, template free, responsive theme, fashion store, responsive theme, responsive html theme, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template">
+    <meta name="keywords"
+        content="bootstrap, ecommerce, fashion, layout, responsive, responsive template, responsive template download, responsive theme, retail, shop, shopping, store, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template" />
+
+    <!-- Mobile specific metas  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon  -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800' rel='stylesheet'
+        type='text/css'>
+
+    <!-- CSS Style -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- font-awesome & simple line icons CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/simple-line-icons.css" media="all">
+
+    <!-- owl.carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+
+    <!-- animate CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="all">
+
+    <!-- flexslider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+
+    <!-- jquery-ui.min CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+
+    <!-- Revolution Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/revolution-slider.css">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+    <script src="https://kit.fontawesome.com/166a70ea35.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    .item-brief {
+        padding-left: 3px;
+
+    }
+
+    .product-item {
+        /* margin-top: 10px; */
+        /* background-color: rgb(245, 240, 139); */
+        border-style: groove;
+        /* border-color: honeydew; */
+        border-width: 1px;
+    }
+
+    .form-control {
+        width: 200px;
+    }
+
+    .page-title {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .form-group {
+        width: fit-content;
+    }
+
+    td , th{
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    .th-delate {
+        font-size: x-large;
+    }
+</style>
+
+<body class="bidder_evaluate_page">
+
+    <div id="page">
+        <!-- Header -->
+        <header>
+            <div class="header-container">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 hidden-xs">
+                                <!-- Default Welcome Message -->
+                                <div class="welcome-msg ">Chào mừng đến Auction! </div>
+                                <span class="phone hidden-sm">Hotline: 0971 432 782</span>
+                            </div>
+
+                            <!-- top links -->
+                            <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
+                                <div class="links">
+                                    <div class="myaccount">
+                                        <a title="My Account" href="account_page.html">
+                                            <i class="fa fa-user"></i>
+                                            <span class="hidden-xs">My Account</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="login">
+                                        <a href="account_page.html">
+                                            <i class="fa fa-unlock-alt"></i>
+                                            <span class="hidden-xs">Log In</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-xs-12">
+                            <!-- Header Logo -->
+                            <div class="logo">
+                                <a title="e-commerce" href="index.html">
+                                    <img alt="responsive theme logo" src="images/logo.png">
+                                </a>
+                            </div>
+                            <!-- End Header Logo -->
+                        </div>
+                        <div class="col-xs-9 col-sm-6 col-md-6">
+                            <!-- Search -->
+
+                            <div class="top-search">
+                                <div id="search">
+                                    <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search" name="search">
+                                            <button class="btn-search" type="button">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- End Search -->
+                        </div>
+                        <!-- top cart -->
+
+                        <div class="col-lg-3 col-xs-3 top-cart">
+                            <div class="top-cart-contain">
+                                <div class="mini-cart">
+                                    <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle">
+                                        <a href="#">
+
+                                            <div class="cart-icon" style="margin-right: 10px;margin-top: 5px;">
+                                                <!-- <i class="fa fa-shopping-cart"></i> -->
+                                                <i class="fas fa-clipboard-list fa-3x"></i>
+
+                                            </div>
+                                            <div class="shoppingcart-inner hidden-xs">
+                                                <span class="cart-title">Wish List</span>
+                                                <span class="cart-total">4 Item(s)</span>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+
+        <!-- Navbar -->
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="mm-toggle-wrap">
+                            <div class="mm-toggle">
+                                <i class="fa fa-align-justify"></i>
+                            </div>
+                            <span class="mm-label">Categories</span>
+                        </div>
+                        <div class="mega-container visible-lg visible-md visible-sm">
+                            <div class="navleft-container">
+                                <div class="mega-menu-title">
+                                    <h3>Categories</h3>
+                                </div>
+                                <div class="mega-menu-category">
+                                    <ul class="nav">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon fa fa-camera fa-fw"></i> Camera & Ảnh</a>
+                                            <div class="wrap-popup column1">
+                                                <div class="popup">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <ul class="nav">
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Canon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Nikon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Olympus</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>ALPA</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bolex</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Samsung </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Panasonic</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Thomson </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bell & Howell</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon fa fa-desktop fa-fw"></i> Máy tính</a>
+                                            <div class="wrap-popup column1">
+                                                <div class="popup">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <ul class="nav">
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Canon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Nikon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Olympus</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>ALPA</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bolex</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Samsung </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Panasonic</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Thomson </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bell & Howell</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="shop_grid.html">
+                                                <i class="icon fab fa-apple fa-fw"></i> Hiệu Apple</a>
+                                            <div class="wrap-popup column1">
+                                                <div class="popup">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <ul class="nav">
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Canon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Nikon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Olympus</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>ALPA</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bolex</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Samsung </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Panasonic</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Thomson </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bell & Howell</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nosub">
+                                            <a href="#">
+                                                <i class="icon fa fa-location-arrow fa-fw"></i> Xe điện tử</a>
+                                        </li>
+                                        <li>
+                                            <a href="shop_grid.html">
+                                                <i class="icon fa fa-headphones fa-fw"></i> Tai nghe</a>
+                                            <div class="wrap-popup column1">
+                                                <div class="popup">
+                                                    <ul class="nav">
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Envent Stereo</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Sennheiser</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Philips</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Sony</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Avantree</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Bajaao</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>FiiO</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Audio-Technica</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>LUXA2</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="shop_grid.html">
+                                                                <span>Geekria</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon fa fa-microphone fa-fw"></i> Phụ kiện</a>
+                                            <div class="wrap-popup column1">
+                                                <div class="popup">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <ul class="nav">
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Canon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Nikon</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Olympus</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>ALPA</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bolex</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Samsung </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Panasonic</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Thomson </span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="shop_grid.html">
+                                                                        <span>Bell & Howell</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nosub">
+                                            <a href="shop_grid.html">
+                                                <i class="icon fa fa-gamepad fa-fw"></i> Game &amp; Video</a>
+                                        </li>
+                                        <li class="nosub">
+                                            <a href="shop_grid.html">
+                                                <i class="glyphicon glyphicon-time"></i> Đồng hồ</a>
+                                        </li>
+                                        <li class="nosub">
+                                            <a href="shop_grid.html">
+                                                <i class="icon fa fa-lightbulb-o fa-fw"></i> Đèn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                        <div class="mtmegamenu">
+                            <ul>
+                                <li class="mt-root demo_custom_link_cms">
+                                    <div class="mt-root-item">
+                                        <a href="index.html">
+                                            <div class="title title_font">
+                                                <span class="title-text">Home</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="mt-root">
+                                    <div class="mt-root-item">
+                                        <a href="contact_us.html">
+                                            <div class="title title_font">
+                                                <span class="title-text">Contact Us</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="mt-root">
+                                    <div class="mt-root-item">
+                                        <a href="about_us.html">
+                                            <div class="title title_font">
+                                                <span class="title-text">about us</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="mt-root demo_custom_link_cms">
+                                    <div class="mt-root-item">
+                                        <a href="blog_full_width.html">
+                                            <div class="title title_font">
+                                                <span class="title-text">Blog</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+
+        <!-- Main Container -->
+        <section class="main-container col2-right-layout">
+            <div class="main container">
+                <div class="row">
+                    <div class="col-main col-sm-9 col-xs-12">
+                        <div class="my-account">
+                            <div class="page-title">
+                                <h2>Điểm đánh giá</h2>
+                            </div>
+                            <div class="wishlist-item table-responsive">
+                                <table class="col-md-12">
+                                    <thead>
+                                        <tr>
+                                            <th class="th-evaluator">Người bình luận</th>
+                                            <th class="th-product">Nội dung bình luận</th>
+                                            <th class="th-details">Sản phẩm giao dịch</th>
+                                            <th class="th-price">Thời gian đăng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="th-evaluate"><a href="#"><i class="fas fa-gavel"></i>Van
+                                                    Thuong</a></td>
+                                            <td class="th-details">
+                                                <h2><a href="#">Lorem Ipsum is simply</a></h2>
+                                            </td>
+                                            <td class="th-product"><a href="#"><img src="images/products/img03.jpg"
+                                                        alt="cart"></a>Apple</td>
+                                            <td class="th-price">11/02/2019</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="th-evaluate"><a href="#"><i class="fas fa-gavel"></i>Van
+                                                    Thuong</a></td>
+                                            <td class="th-details">
+                                                <h2><a href="#">Lorem Ipsum is simply</a></h2>
+                                            </td>
+                                            <td class="th-product"><a href="#"><img src="images/products/img03.jpg"
+                                                        alt="cart"></a>Apple</td>
+                                            <td class="th-price">11/02/2019</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="th-evaluate"><a href="#"><i class="fas fa-gavel"></i>Van
+                                                    Thuong</a></td>
+                                            <td class="th-details">
+                                                <h2><a href="#">Lorem Ipsum is simply</a></h2>
+                                            </td>
+                                            <td class="th-product"><a href="#"><img src="images/products/img13.jpg"
+                                                        alt="cart"></a>Apple</td>
+                                            <td class="th-price">11/02/2019</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="th-evaluate"><a href="#"><i class="fas fa-gavel"></i>Van
+                                                    Thuong</a></td>
+                                            <td class="th-details">
+                                                <h2><a href="#">Lorem Ipsum is simply</a></h2>
+                                            </td>
+                                            <td class="th-product"><a href="#"><img src="images/products/img04.jpg"
+                                                        alt="cart"></a>Apple</td>
+                                            <td class="th-price">11/02/2019</td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="checkout.html" class="delete-all">Xóa tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="right sidebar col-sm-3 col-xs-12">
+                        <div class="sidebar-account block">
+                            <div class="sidebar-bar-title">
+                                <h3>Tài khoản của tôi</h3>
+                            </div>
+                            <div class="block-content">
+                                <ul>
+                                    <li><a href="bidder-info.html">Thông tin tài khoản</a></li>
+                                    <li><a href="bidder-wishlist.html">Danh sách yêu thích</a></li>
+                                    <li><a href="bidder-biddings.html">Sản phẩm đang tham gia đấu giá</a></li>
+                                    <li class="current"><a href="bidder-won.html">Sản phẩm đã thắng</a></li>
+                                    <li class="last"><a href="bidder-evaluate.html">Xem nhận xét</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <!-- Main Container End -->
+        <!-- Footer -->
+
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer-newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-7">
+                            <form id="newsletter-validate-detail" method="post" action="#">
+                                <h3 class="hidden-sm">Sign up for newsletter</h3>
+                                <div class="newsletter-inner">
+                                    <input class="newsletter-email" name='Email' placeholder='Enter Your Email' />
+                                    <button class="button subscribe" type="submit" title="Subscribe">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="social col-md-4 col-sm-5">
+                            <ul class="inline-mode">
+                                <li class="social-network fb">
+                                    <a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="social-network googleplus">
+                                    <a title="Connect us on Google+" target="_blank" href="https://plus.google.com/">
+                                        <i class="fab fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li class="social-network tw">
+                                    <a title="Connect us on Twitter" target="_blank" href="https://twitter.com/">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="social-network linkedin">
+                                    <a title="Connect us on Linkedin" target="_blank" href="https://www.pinterest.com/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="social-network rss">
+                                    <a title="Connect us on Instagram" target="_blank" href="https://instagram.com/">
+                                        <i class="fas fa-rss"></i>
+                                    </a>
+                                </li>
+                                <li class="social-network instagram">
+                                    <a title="Connect us on Instagram" target="_blank" href="https://instagram.com/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-coppyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 coppyright"> Copyright © 2019 MyAuction. Edit by
+                            <a href="https://www.facebook.com/thuong.duong.12"> Thuong </a>. All Rights Reserved. </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="payment">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img title="Visa" alt="Visa" src="images/visa.png">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img title="Paypal" alt="Paypal" src="images/paypal.png">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img title="Discover" alt="Discover" src="images/discover.png">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img title="Master Card" alt="Master Card" src="images/master-card.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="totop"> </a>
+        <!-- End Footer -->
+    </div>
+
+    <!-- End Footer -->
+    <!-- JS -->
+
+    <!-- jquery js -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- owl.carousel.min js -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <!-- bxslider js -->
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+
+
+    <!-- megamenu js -->
+    <script type="text/javascript" src="js/megamenu.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var mega_menu = '0';
+
+        /* ]]> */
+    </script>
+
+    <!-- jquery.mobile-menu js -->
+    <script type="text/javascript" src="js/mobile-menu.js"></script>
+
+
+    <!--jquery-ui.min js -->
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+    <!-- main js -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="js/countdown.js"></script>
+
+    <!-- <div id="myModal" class="modal fade in" style="display: block;">
+        <div class="modal-dialog newsletter-popup">
+            <div class="modal-content"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            
+                <div class="modal-body"> 
+                <h4 class="modal-title">NEWSLETTER SIGNUP</h4>
+                     
+           
+                <div class="subscribe-bottom">
+              <input name="notshowpopup" id="notshowpopup" type="checkbox">
+              Don’t show this popup again </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="myMessage" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"> message </h4>
+                </div>
+                <div class="modal-body">
+
+                    <form>
+                        <h3>Bạn đang nhận xét <i>...</i></h3>
+                        <div class="form-area">
+                            <div class="form-element">
+                                <label>Sự hài lòng của bạn?<em>*</em></label>
+                                <!-- <div class="action">
+                  <button class="button button-sm"><i class="fa fa-heart"></i></button>
+                  <button class="button button-sm"><i class="fa fa-close"></i></button></div> -->
+
+                                <!-- <label for="always"><i class="fas fa-thumbs-up"></label> -->
+                                <input type="radio" name="editList" id="always" value="always" /> <i
+                                    class="fas fa-thumbs-up x-icon"></i>
+                                &emsp;
+                                <!-- <label for="never"><i class="fas fa-thumbs-down"></label> -->
+                                <input type="radio" name="editList" id="never" value="never" /> <i
+                                    class="fas fa-thumbs-down"></i>
+
+                            </div>
+                            <div class="form-element">
+                                <label>Nhận xét: <em>*</em></label>
+                                <textarea></textarea>
+                            </div>
+                            <div class="buttons-set">
+                                <button class="button submit" title="Submit Review" type="submit"><span></i> &nbsp;Gửi
+                                        nhận
+                                        xét</span></button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $('.th-evaluate').click(function () {
+                // count = $(this).attr('id');
+                // var source = $(this).attr('src');
+                //alert('souce');
+                sellerName = $(this).text();
+                $('.modal-title').text('Đánh giá')
+                $('.modal-body h3 i').text(sellerName)
+
+                $('#myMessage').modal('show')
+            })
+
+        });
+    </script>
+
+</body>
+
+
+</html>

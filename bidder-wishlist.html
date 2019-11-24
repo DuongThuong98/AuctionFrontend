@@ -1,27 +1,32 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <!-- Basic page needs -->
   <meta charset="utf-8">
   <!--[if IE]>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <![endif]-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>MyStore premium HTML5 &amp; CSS3 template</title>
-  <meta name="description" content="best template, template free, responsive theme, fashion store, responsive theme, responsive html theme, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template">
-  <meta name="keywords" content="bootstrap, ecommerce, fashion, layout, responsive, responsive template, responsive template download, responsive theme, retail, shop, shopping, store, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template"
-  />
-  <!-- Mobile specific metas  , -->
+  <meta name="description"
+    content="best template, template free, responsive theme, fashion store, responsive theme, responsive html theme, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template">
+  <meta name="keywords"
+    content="bootstrap, ecommerce, fashion, layout, responsive, responsive template, responsive template download, responsive theme, retail, shop, shopping, store, Premium website templates, web templates, Multi-Purpose Responsive HTML5 Template" />
+
+  <!-- Mobile specific metas  -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicon  -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700italic,700,400italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800' rel='stylesheet'
+    type='text/css'>
 
   <!-- CSS Style -->
 
@@ -35,7 +40,6 @@
   <!-- owl.carousel CSS -->
   <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
-  <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
 
   <!-- animate CSS  -->
   <link rel="stylesheet" type="text/css" href="css/animate.css" media="all">
@@ -47,108 +51,146 @@
   <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 
   <!-- Revolution Slider CSS -->
-  <link href="css/revolution-slider.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/revolution-slider.css">
 
   <!-- style CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
   <script src="https://kit.fontawesome.com/166a70ea35.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="cms-index-index cms-home-page">
-  <div id="page">
+<style>
+  .item-brief {
+    padding-left: 3px;
 
+  }
+
+  .product-item {
+    /* margin-top: 10px; */
+    /* background-color: rgb(245, 240, 139); */
+    border-style: groove;
+    /* border-color: honeydew; */
+    border-width: 1px;
+  }
+
+  .form-control {
+    width: 200px;
+  }
+
+  .page-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-group {
+    width: fit-content;
+  }
+
+td{
+    margin: auto;
+    vertical-align:middle;
+  }
+
+.th-delate{
+    font-size: x-large;
+}
+</style>
+
+<body class="wishlist_page">
+
+  <div id="page">
     <!-- Header -->
     <header>
-        <div class="header-container">
-          <div class="header-top">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-sm-4 hidden-xs">
-                  <!-- Default Welcome Message -->
-                  <div class="welcome-msg ">Chào mừng đến Auction! </div>
-                  <span class="phone hidden-sm">Hotline: 0971 432 782</span>
-                </div>
-  
-                <!-- top links -->
-                <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
-                  <div class="links">
-                    <div class="myaccount">
-                      <a title="My Account" href="account_page.html">
-                        <i class="fa fa-user"></i>
-                        <span class="hidden-xs">My Account</span>
-                      </a>
-                    </div>
-  
-                    <div class="login">
-                      <a href="account_page.html">
-                        <i class="fa fa-unlock-alt"></i>
-                        <span class="hidden-xs">Log In</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="header-container">
+        <div class="header-top">
           <div class="container">
             <div class="row">
-              <div class="col-sm-3 col-md-3 col-xs-12">
-                <!-- Header Logo -->
-                <div class="logo">
-                  <a title="e-commerce" href="index.html">
-                    <img alt="responsive theme logo" src="images/logo.png">
-                  </a>
-                </div>
-                <!-- End Header Logo -->
+              <div class="col-lg-4 col-sm-4 hidden-xs">
+                <!-- Default Welcome Message -->
+                <div class="welcome-msg ">Chào mừng đến Auction! </div>
+                <span class="phone hidden-sm">Hotline: 0971 432 782</span>
               </div>
-              <div class="col-xs-9 col-sm-6 col-md-6">
-                <!-- Search -->
-  
-                <div class="top-search">
-                  <div id="search">
-                    <form>
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search" name="search">
-                        <button class="btn-search" type="button">
-                          <i class="fa fa-search"></i>
-                        </button>
-                      </div>
-                    </form>
+
+              <!-- top links -->
+              <div class="headerlinkmenu col-lg-8 col-md-7 col-sm-8 col-xs-12">
+                <div class="links">
+                  <div class="myaccount">
+                    <a title="My Account" href="account_page.html">
+                      <i class="fa fa-user"></i>
+                      <span class="hidden-xs">My Account</span>
+                    </a>
                   </div>
-                </div>
-  
-                <!-- End Search -->
-              </div>
-              <!-- top cart -->
-  
-              <div class="col-lg-3 col-xs-3 top-cart">
-                <div class="top-cart-contain">
-                  <div class="mini-cart">
-                    <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle">
-                      <a href="#">
-                        
-                        <div class="cart-icon" style="margin-right: 10px;margin-top: 5px;">
-                          <!-- <i class="fa fa-shopping-cart"></i> -->
-                          <i class="fas fa-clipboard-list fa-3x"></i>
-                          
-                        </div>
-                        <div class="shoppingcart-inner hidden-xs">
-                          <span class="cart-title">Wish List</span>
-                          <span class="cart-total">4 Item(s)</span>
-  
-               
-                        </div>
-                      </a>
-                    </div>
-  
+
+                  <div class="login">
+                    <a href="account_page.html">
+                      <i class="fa fa-unlock-alt"></i>
+                      <span class="hidden-xs">Log In</span>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <!-- end header -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-md-3 col-xs-12">
+              <!-- Header Logo -->
+              <div class="logo">
+                <a title="e-commerce" href="index.html">
+                  <img alt="responsive theme logo" src="images/logo.png">
+                </a>
+              </div>
+              <!-- End Header Logo -->
+            </div>
+            <div class="col-xs-9 col-sm-6 col-md-6">
+              <!-- Search -->
+
+              <div class="top-search">
+                <div id="search">
+                  <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search" name="search">
+                      <button class="btn-search" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- End Search -->
+            </div>
+            <!-- top cart -->
+
+            <div class="col-lg-3 col-xs-3 top-cart">
+              <div class="top-cart-contain">
+                <div class="mini-cart">
+                  <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle">
+                    <a href="#">
+
+                      <div class="cart-icon" style="margin-right: 10px;margin-top: 5px;">
+                        <!-- <i class="fa fa-shopping-cart"></i> -->
+                        <i class="fas fa-clipboard-list fa-3x"></i>
+
+                      </div>
+                      <div class="shoppingcart-inner hidden-xs">
+                        <span class="cart-title">Wish List</span>
+                        <span class="cart-total">4 Item(s)</span>
+
+
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
 
     <!-- Navbar -->
     <nav>
@@ -532,87 +574,83 @@
     </nav>
     <!-- end nav -->
 
-    <!-- Home Slider Start -->
-    <div class="slider">
-      <div class="tp-banner-container clearfix">
-        <div class="tp-banner">
-          <ul>
-            <!-- SLIDE 1 -->
-            <li data-transition="slidehorizontal" data-slotamount="5" data-masterspeed="700">
-              <!-- MAIN IMAGE -->
-              <img src="images/slider/slider-img1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption very_big_white skewfromrightshort fadeout" data-x="center" data-y="100" data-speed="500" data-start="1200"
-                data-easing="Circ.easeInOut" style=" font-size:70px; font-weight:800; color:#fe0100;">Huge
-                <span style=" color:#000;">sale</span>
+    <!-- Main Container -->
+    <section class="main-container col2-right-layout">
+        <div class="main container">
+          <div class="row">
+            <div class="col-main col-sm-9 col-xs-12">
+              <div class="my-account">
+                <div class="page-title">
+                  <h2>My Wishlist</h2>
+                </div>
+                <div class="wishlist-item table-responsive">
+                  <table class="col-md-12">
+                    <thead>
+                      <tr>
+                        <th class="th-delate">Xóa</th>
+                        <th class="th-product">Ảnh đại diện</th>
+                        <th class="th-details">Thông tin sản phẩm</th>
+                        <th class="th-price">Giá đấu</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="th-delate"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                        <td class="th-product"><a href="#"><img src="images/products/img03.jpg" alt="cart"></a></td>
+                        <td class="th-details"><h2><a href="#">Lorem Ipsum is simply</a></h2></td>
+                        <td class="th-price">$125.00</td>
+                        
+                      </tr>
+                      <tr>
+                        <td class="th-delate"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                        <td class="th-product"><a href="#"><img src="images/products/img13.jpg" alt="cart"></a></td>
+                        <td class="th-details"><h2><a href="#">Leo quis molestie</a></h2></td>
+                        <td class="th-price">$99.00</td>
+                       
+                      </tr>
+                      <tr>
+                        <td class="th-delate"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                        <td class="th-product"><a href="#"><img src="images/products/img02.jpg" alt="cart"></a></td>
+                        <td class="th-details"><h2><a href="#">Lorem Ipsum is simply</a></h2></td>
+                        <td class="th-price">$179.89</td>
+                      
+                      </tr>
+                      <tr>
+                        <td class="th-delate"><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                        <td class="th-product"><a href="#"><img src="images/products/img01.jpg" alt="cart"></a></td>
+                        <td class="th-details"><h2><a href="#">Leo quis molestie</a></h2></td>
+                        <td class="th-price">$199.00</td>
+                       
+                      </tr>
+                    </tbody>
+                  </table>
+                  <a href="checkout.html" class="delete-all">Xóa tất cả</a> </div>
               </div>
-
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption tp-caption medium_text skewfromrightshort fadeout" data-x="center" data-y="165" data-hoffset="0" data-voffset="-73"
-                data-speed="500" data-start="1200" data-easing="Power4.easeOut" style=" font-size:20px; font-weight:500; color:#337ab7;">
-              Sale off 75% all products </div>
-
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption customin tp-resizeme rs-parallaxlevel-0" data-x="center" data-y="210" data-hoffset="0" data-voffset="98"
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500" data-start="1500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                data-elementdelay="0.1" data-endelementdelay="0.1" data-linktoslide="next" style="border: 2px solid #fed700;border-radius: 50px; font-size:14px; background-color:#fed700; color:#333; z-index: 12; max-width: auto; max-height: auto; white-space: nowrap; letter-spacing:1px;">
-                <a href='#' class='largebtn slide1'>Learn More</a>
+            </div>
+            <aside class="right sidebar col-sm-3 col-xs-12">
+              <div class="sidebar-account block">
+                <div class="sidebar-bar-title">
+                  <h3>Tài khoản của tôi</h3>
+                </div>
+                <div class="block-content">
+                  <ul>
+                    <li><a href="bidder-info.html">Thông tin tài khoản</a></li>
+                    <li class="current"><a href="#">Danh sách yêu thích</a></li>
+                    <li><a href="bidder-biddings.html">Sản phẩm đang tham gia đấu giá</a></li>
+                    <li><a href="bidder-won.html">Sản phẩm đã thắng</a></li>
+                    <li class="last"><a href="bidder-evaluate.html">Xem nhận xét</a></li>
+                  </ul>
+                </div>
               </div>
-            </li>
-
-            <!-- SLIDE 2 -->
-            <li data-transition="slidehorizontal" data-slotamount="5" data-masterspeed="700">
-              <!-- MAIN IMAGE -->
-              <img src="images/slider/slider-img2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption white_heavy_60 customin ltl tp-resizeme" data-x="310" data-y="140" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="1200" data-start="700" data-easing="Power4.easeOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.1"
-                data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style=" font-size:70px; font-weight:800; color:#333;">GREAT LOOKS </div>
-
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption black_thin_blackbg_30 customin ltl tp-resizeme" data-x="310" data-y="220" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                data-speed="1500" data-start="1000" data-easing="Power4.easeInOut" data-splitin="none" data-splitout="none"
-                data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1000" data-endeasing="Power4.easeIn" style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; color:#34bcec; font-size:20px; font-weight:500;">The perfect synthesis of innovative thinking </div>
-
-              <!-- LAYER NR. 4 -->
-              <div class="tp-caption lfb ltb start tp-resizeme" data-x="310" data-y="270" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="1500" data-start="1600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                data-elementdelay="0.01" data-endelementdelay="0.1" data-linktoslide="next" style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;">
-                <a href='#' class='largebtn solid'>Get It Now!</a>
-              </div>
-            </li>
-
-            <!-- SLIDE 3 -->
-            <li data-transition="slidehorizontal" data-slotamount="5" data-masterspeed="700">
-              <!-- MAIN IMAGE -->
-              <img src="images/slider/slider-img3.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="tp-caption big_100_white lft start fadeout" data-x="310" data-y="120" data-speed="500" data-start="1200" data-easing="Circ.easeInOut"
-                style=" font-size:70px; font-weight:800; color:#fff;">High</div>
-              <div class="tp-caption big_100_white lft fadeout" data-x="310" data-y="180" data-speed="500" data-start="1200" data-easing="Circ.easeInOut"
-                style=" font-size:50px; font-weight:800; color:#fed700;">Definition</div>
-
-              <!-- LAYER NR. 2 -->
-              <div class="tp-caption tp-caption medium_text lfb fadeout" data-x="310" data-y="260" data-speed="500" data-start="1200" data-easing="Power4.easeOut"
-                style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; color:#34bcec; font-size:20px; font-weight:500;">Best Camera For You?</div>
-
-              <!-- LAYER NR. 3 -->
-              <div class="tp-caption fade fadeout tp-resizeme" data-x="310" data-y="320" data-hoffset="-100" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="1500" data-start="800" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                data-elementdelay="0.01" data-endelementdelay="0.1" data-linktoslide="next" style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;">
-                <a href='#' class='largebtn solid'>Get It Now!</a>
-              </div>
-            </li>
-          </ul>
+             
+            </aside>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+    <!-- Main Container End -->
+    <!-- Footer -->
 
-    <h1>CHỖ NÀY CHỨA RUỘT</h1>
 
     <!-- Footer -->
 
@@ -666,7 +704,7 @@
           </div>
         </div>
       </div>
-     
+
       <div class="footer-coppyright">
         <div class="container">
           <div class="row">
@@ -704,10 +742,9 @@
     </footer>
     <a href="#" class="totop"> </a>
     <!-- End Footer -->
-
   </div>
 
-
+  <!-- End Footer -->
   <!-- JS -->
 
   <!-- jquery js -->
@@ -716,15 +753,12 @@
   <!-- bootstrap js -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-
   <!-- owl.carousel.min js -->
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 
   <!-- bxslider js -->
   <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 
-  <!-- Slider Js -->
-  <script type="text/javascript" src="js/revolution-slider.js"></script>
 
   <!-- megamenu js -->
   <script type="text/javascript" src="js/megamenu.js"></script>
@@ -732,11 +766,12 @@
     /* <![CDATA[ */
     var mega_menu = '0';
 
-  /* ]]> */
+    /* ]]> */
   </script>
 
   <!-- jquery.mobile-menu js -->
   <script type="text/javascript" src="js/mobile-menu.js"></script>
+
 
   <!--jquery-ui.min js -->
   <script type="text/javascript" src="js/jquery-ui.js"></script>
@@ -744,40 +779,12 @@
   <!-- main js -->
   <script type="text/javascript" src="js/main.js"></script>
 
-  <!-- countdown js -->
-  <script type="text/javascript" src="js/countdown.js"></script>
-
-
-  <script>
-      jQuery(document).ready(function(){
-            $('.mega-menu-category').hide();
-            // console.log('a');
-          });
-  </script>
-  <!-- Revolution Slider -->
-  <script type="text/javascript">
-    jQuery(document).ready(function () {
-      jQuery('.tp-banner').revolution(
-        {
-          delay: 9000,
-          startwidth: 1170,
-          startheight: 530,
-          hideThumbs: 10,
-
-          navigationType: "bullet",
-          navigationStyle: "preview1",
-
-          hideArrowsOnMobile: "on",
-
-          touchenabled: "on",
-          onHoverStop: "on",
-          spinner: "spinner4"
-        });
-    });
-  </script>
+  <script src="js/countdown.js"></script>
 
 
 
 </body>
+
+
 
 </html>
